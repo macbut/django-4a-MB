@@ -4,6 +4,22 @@ from django.http import HttpResponse
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
-
-# Create your views here.
+    return HttpResponse('''
+    
+    <button style="background-color:blue" onclick="increases()">przycisk</button>
+    <br><br>
+    <input></input>
+    <br><br>
+    <selct></select>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ''')
