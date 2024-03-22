@@ -7,4 +7,7 @@ urlpatterns = [
     path("counter/", views.counter, name="counter"),
     path("counter/", views.counter, name="counter"),
     path("basic/", views.basic, name="basic"),
+    path("<int:question_id>/", views.detail, name="detail"),
+    path("<int:question_id>/results/", views.results, name="results"),
+    path("<int:question_id>/vote/", views.vote, name="vote"),
 ]
